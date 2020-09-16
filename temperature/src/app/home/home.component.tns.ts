@@ -6,27 +6,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  chartOptions = {   
+  chartOptions = {
     chart: {
-        type: "spline"
+        type: 'spline'
     },
     title: {
-        text: "Monthly Average Temperature"
+        text: 'Monthly Average Temperature'
     },
     subtitle: {
-        text: "Source: WorldClimate.com"
+        text: 'Source: WorldClimate.com'
     },
     xAxis:{
-        categories:["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        categories:['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+          'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     },
-    yAxis: {          
-        title:{
-          text:"Temperature °C"
-        } 
+    yAxis: {
+        title: {
+          text: 'Temperature °C'
+        }
     },
     tooltip: {
-        valueSuffix:" °C"
+        valueSuffix: ' °C'
     },
     series: [
         {
