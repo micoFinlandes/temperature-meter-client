@@ -34,7 +34,7 @@
     "@ngtools/webpack": "^9.1.11",
     "copy-webpack-plugin": "^5.1.1",
     "core-js": "^2.5.4",
-    "highcharts": "^8.1.2",
+    "highcharts": "^9.0.0",
     "highcharts-angular": "^2.4.0",
     "nativescript-angular": "^9.0.0-next-2019-11-12-155500-01",
     "nativescript-theme-core": "~1.0.4",
